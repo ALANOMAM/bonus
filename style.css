@@ -1,9 +1,10 @@
 
 body{ /*per gli occhi */
-    background-color: blanchedalmond;
+ background-color: blanchedalmond;  
 }
 
 .container{
+    margin-top: 70px;
     max-width: 1000px;
 }
 
@@ -35,6 +36,7 @@ body{ /*per gli occhi */
     background-color:white
 }
 
+/*delimitando i borders della board*/
 .row .col-1:first-child{
     border-left: 5px black groove;
 }
@@ -50,3 +52,23 @@ body{ /*per gli occhi */
 .row:first-child .col-1{
     border-top: 5px black groove;
    }
+/*delimitando i borders della board*/   
+
+.line{
+    transition: 3s;
+    border-color: red;
+}
+.line:active{
+    transform:translateY(70px);
+    transition: 0.5s;
+}
+
+.diagonal{
+    transition: 3s;
+    border-color: red;
+}
+
+.diagonal:active{
+    transform: translate(85px, -70px);
+    transition: 0.5s;
+}
