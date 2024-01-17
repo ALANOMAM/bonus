@@ -14,3 +14,7 @@ body{ /*per gli occhi */
 .row-dispari div:nth-child(2n+1){
     background-color:rgba(162, 145, 107, 1) ;
 }
+
+.test-height{
+    height: 70px;
+}
