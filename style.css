@@ -7,11 +7,11 @@ body{ /*per gli occhi */
     max-width: 1000px;
 }
 
-.row-pari div:nth-child(2n){
+.row-pari .col-1:nth-child(2n){
     background-color:rgba(162, 145, 107, 1) ;
 }
 
-.row-dispari div:nth-child(2n+1){
+.row-dispari .col-1:nth-child(2n+1){
     background-color:rgba(162, 145, 107, 1) ;
 }
 
@@ -22,7 +22,7 @@ body{ /*per gli occhi */
 .black-piece{
     width:60px;
     height:60px;
-    border: 2px black solid;
+    border: 2px black groove;
     border-radius: 50%;
     background-color: black;
 }
@@ -30,7 +30,23 @@ body{ /*per gli occhi */
 .white-piece{
     width:60px;
     height:60px;
-    border: 2px white solid;
+    border: 2px white groove;
     border-radius: 50%;
-    background-color:black;
+    background-color:white
 }
+
+.row .col-1:first-child{
+    border-left: 5px black groove;
+}
+
+.row .col-1:last-child{
+    border-right: 5px black groove;
+}
+
+.row:last-child .col-1{
+ border-bottom: 5px black groove;
+}
+
+.row:first-child .col-1{
+    border-top: 5px black groove;
+   }
