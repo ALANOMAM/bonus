@@ -18,3 +18,19 @@ body{ /*per gli occhi */
 .test-height{
     height: 70px;
 }
+
+.black-piece{
+    width:60px;
+    height:60px;
+    border: 2px black solid;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.white-piece{
+    width:60px;
+    height:60px;
+    border: 2px white solid;
+    border-radius: 50%;
+    background-color:black;
+}
