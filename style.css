@@ -6,3 +6,11 @@ body{ /*per gli occhi */
 .container{
     max-width: 1000px;
 }
+
+.row-pari div:nth-child(2n){
+    background-color:rgba(162, 145, 107, 1) ;
+}
+
+.row-dispari div:nth-child(2n+1){
+    background-color:rgba(162, 145, 107, 1) ;
+}
